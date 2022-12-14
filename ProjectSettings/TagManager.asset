@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - RedMinion
+  - BlueMinion
+  - RedBullet
+  - BlueBullet
+  - Enemy
+  - CannonTower
+  - Arrow
+  - Bullet
+  - Laser
+  - GroundAttack
+  - LobbyCanvas
+  - SelectMatch
+  - Slots
+  - Slot
+  - EquipmentSystem
+  - Canvas
+  - MainInventory
+  - DraggingItem
+  - CraftSystem
+  - ResultSlot
+  - Tooltip
+  - Hotbar
+  - Panel
+  - PlayerAPI
+  - ItemIcon
+  - Item
+  - EventSystem
+  - Inventory
+  - WarriorTab
+  - WizardTab
+  - AssassinTab
+  - InherenceTab
+  - Player1
+  - Player2
+  - GetCaller
+  - APIStorage
+  - TestText
+  - Blue
+  - Red
+  - Zera
+  - Dappx
+  - Tag
+  - WarriorSlot
+  - WizardSlot
+  - AssassinSlot
+  - InherenceSlot
+  - MinionSpawner
+  - DrawInventory
+  - Castle
+  - Ground
+  - Center
+  - Water
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - PostProcessing
+  - Water
+  - UI
+  - Tower
+  - Player
+  - Enemy
+  - DangerZone
+  - Blue
+  - Red
+  - Nexus
+  - Special
+  - '#'
+  - Projectiles
+  - Particles
+  - Neutral
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 4173927345
+    locked: 0
+  - name: midground
+    uniqueID: 948718429
+    locked: 0
+  - name: Foreground
+    uniqueID: 3368623029
+    locked: 0
