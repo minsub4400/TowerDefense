@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3c9c031197f714499b49259ff17f2a, type: 3}
+  m_Name: B1_Attack_Increase
+  m_EditorClassIdentifier: 
+  _id: 15001
+  _group_id: 1
+  _name: ATK+
+  _effectType: 1
+  _target: 0
+  _effectValue: 10
+  _unlimited: 1
+  _effectDuration: 30
+  _desc: Increase player's attack power.
+  _buffIcon: {fileID: 21300000, guid: 53de628617d670248a1d07d7c4b12379, type: 3}
