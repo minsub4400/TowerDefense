@@ -1,0 +1,2444 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7450f9ae548e57443aef0ac31698f732, type: 3}
+  m_Name: MinionTowerDatabase
+  m_EditorClassIdentifier: 
+  itemList:
+  - itemName: 
+    ClassType: 
+    itemID: 0
+    itemDesc: 
+    itemIcon: {fileID: 0}
+    objType: 
+    itemValue: 0
+    itemType: 0
+    itemWeight: 0
+    maxStack: 0
+    indexItemInList: 0
+    rarity: 0
+    CombinationValue: 0
+    towerData:
+      Name: 
+      NickName: 
+      ID: 0
+      GroupID: 0
+      Rank: 0
+      Type: 0
+      Pf: {fileID: 0}
+      Combination_ResultID: 0
+      Combination_Required_Value: 0
+      Normal_Random_Draw_Probability: 0
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 0
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 0
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 0
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 0
+      Attack_Speed: 0
+      Hp: 0
+      Range: 0
+      Range_Type: 0
+      Projectile_Type: 0
+      Projectile_Speed: 0
+      Projectile_Pf: {fileID: 0}
+      Destroy_Effect_Pf: {fileID: 0}
+      Desc: 
+      Sprite_TowerCard: {fileID: 0}
+      Sprite_TowerProtrait: {fileID: 0}
+      AudioClip_Attack_Name: 
+      AudioClip_Hit_Name: 
+      AudioClip_Normal_Name: 
+      buffID: 0
+      MinionID: 0
+    skillData:
+      NameLevel: 
+      Name: {fileID: 0}
+      ID: 0
+      Probability: 0
+      Classification: 0
+      Rank: 0
+      LockTime: 0
+      SkillType: 0
+      Value_1: 0
+      Value_2: 0
+      CoolTime: 0
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 0
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 0}
+      SkillIcon: {fileID: 0}
+      Desc: 
+  - itemName: Tower_Minion_Wolf1
+    ClassType: 
+    itemID: 1
+    itemDesc: "A group that lives in groups in a blue rock canyon. These packs of
+      wolves that have taken over the canyon It is a subject of fear and alert to
+      nearby animals. While gradually expanding its power Guided by the whispering
+      voice, I joined the battlefield. \"Aww~~~~\"\r"
+    itemIcon: {fileID: 21300000, guid: 4a78c42807ff16646bc1bfb8cd1eb20e, type: 3}
+    objType: Minion_T
+    itemValue: 1
+    itemType: 10
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 100
+    CombinationValue: 0
+    towerData:
+      Name: Wolf_Tower
+      NickName: Wolf Cave
+      ID: 3001
+      GroupID: 19
+      Rank: 1
+      Type: 4
+      Pf: {fileID: 2719887186148994814, guid: b0704d2253632714ba48b63ee466bd51, type: 3}
+      Combination_ResultID: 3002
+      Combination_Required_Value: 500
+      Normal_Random_Draw_Probability: 2.9166667
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 11.666667
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 0
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 0
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 1
+      Attack_Speed: 0.3
+      Hp: 100
+      Range: 20
+      Range_Type: 4
+      Projectile_Type: 1
+      Projectile_Speed: 60
+      Projectile_Pf: {fileID: 3720574515718989771, guid: f1d5dac7ff3733e4faee3b02529b5a58, type: 3}
+      Destroy_Effect_Pf: {fileID: 1705284682975132108, guid: fbe62b974630487458f54bd7eaf3bfcb, type: 3}
+      Desc: "A group that lives in groups in a blue rock canyon. These packs of wolves
+        that have taken over the canyon It is a subject of fear and alert to nearby
+        animals. While gradually expanding its power Guided by the whispering voice,
+        I joined the battlefield. \"Aww~~~~\"\r"
+      Sprite_TowerCard: {fileID: 21300000, guid: 4a78c42807ff16646bc1bfb8cd1eb20e, type: 3}
+      Sprite_TowerProtrait: {fileID: 21300000, guid: e86ee112fa1af9d46936986970168b9c, type: 3}
+      AudioClip_Attack_Name: 0
+      AudioClip_Hit_Name: 0
+      AudioClip_Normal_Name: "Nomal_ES_Minion_Tower\r"
+      buffID: 0
+      MinionID: 5031
+    skillData:
+      NameLevel: 
+      Name: {fileID: 0}
+      ID: 0
+      Probability: 0
+      Classification: 0
+      Rank: 0
+      LockTime: 0
+      SkillType: 0
+      Value_1: 0
+      Value_2: 0
+      CoolTime: 0
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 0
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 0}
+      SkillIcon: {fileID: 0}
+      Desc: 
+  - itemName: Tower_Minion_Wolf2
+    ClassType: 
+    itemID: 2
+    itemDesc: "A group that lives in groups in a blue rock canyon. These packs of
+      wolves that have taken over the canyon It is a subject of fear and alert to
+      nearby animals. While gradually expanding its power Guided by the whispering
+      voice, I joined the battlefield. \"Aww~~~~\"\r"
+    itemIcon: {fileID: 21300000, guid: 720e664e21810014fb6e998d38af2881, type: 3}
+    objType: Minion_T
+    itemValue: 1
+    itemType: 10
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 100
+    CombinationValue: 0
+    towerData:
+      Name: Wolf_Tower2
+      NickName: Wolf Cave
+      ID: 3002
+      GroupID: 19
+      Rank: 2
+      Type: 4
+      Pf: {fileID: 2719887186148994814, guid: b0704d2253632714ba48b63ee466bd51, type: 3}
+      Combination_ResultID: 3003
+      Combination_Required_Value: 300
+      Normal_Random_Draw_Probability: 0.8333333
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 3.3333333
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 0
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 0
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 1
+      Attack_Speed: 0.3
+      Hp: 150
+      Range: 20
+      Range_Type: 4
+      Projectile_Type: 1
+      Projectile_Speed: 60
+      Projectile_Pf: {fileID: 3720574515718989771, guid: f1d5dac7ff3733e4faee3b02529b5a58, type: 3}
+      Destroy_Effect_Pf: {fileID: 1705284682975132108, guid: fbe62b974630487458f54bd7eaf3bfcb, type: 3}
+      Desc: "A group that lives in groups in a blue rock canyon. These packs of wolves
+        that have taken over the canyon It is a subject of fear and alert to nearby
+        animals. While gradually expanding its power Guided by the whispering voice,
+        I joined the battlefield. \"Aww~~~~\"\r"
+      Sprite_TowerCard: {fileID: 21300000, guid: 720e664e21810014fb6e998d38af2881, type: 3}
+      Sprite_TowerProtrait: {fileID: 21300000, guid: e86ee112fa1af9d46936986970168b9c, type: 3}
+      AudioClip_Attack_Name: 0
+      AudioClip_Hit_Name: 0
+      AudioClip_Normal_Name: "Nomal_ES_Minion_Tower\r"
+      buffID: 0
+      MinionID: 5032
+    skillData:
+      NameLevel: 
+      Name: {fileID: 0}
+      ID: 0
+      Probability: 0
+      Classification: 0
+      Rank: 0
+      LockTime: 0
+      SkillType: 0
+      Value_1: 0
+      Value_2: 0
+      CoolTime: 0
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 0
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 0}
+      SkillIcon: {fileID: 0}
+      Desc: 
+  - itemName: Tower_Minion_Wolf3
+    ClassType: 
+    itemID: 3
+    itemDesc: "A group that lives in groups in a blue rock canyon. These packs of
+      wolves that have taken over the canyon It is a subject of fear and alert to
+      nearby animals. While gradually expanding its power Guided by the whispering
+      voice, I joined the battlefield. \"Aww~~~~\"\r"
+    itemIcon: {fileID: 21300000, guid: b098f12c7717ca04f827d4ecdeeecb5a, type: 3}
+    objType: Minion_T
+    itemValue: 1
+    itemType: 10
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 100
+    CombinationValue: 0
+    towerData:
+      Name: Wolf_Tower3
+      NickName: Wolf Cave
+      ID: 3003
+      GroupID: 19
+      Rank: 3
+      Type: 4
+      Pf: {fileID: 2719887186148994814, guid: b0704d2253632714ba48b63ee466bd51, type: 3}
+      Combination_ResultID: 3004
+      Combination_Required_Value: 200
+      Normal_Random_Draw_Probability: 0.41666666
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 1.6666666
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 2.9166667
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 11.666667
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 1
+      Attack_Speed: 0.3
+      Hp: 200
+      Range: 20
+      Range_Type: 4
+      Projectile_Type: 1
+      Projectile_Speed: 60
+      Projectile_Pf: {fileID: 3720574515718989771, guid: f1d5dac7ff3733e4faee3b02529b5a58, type: 3}
+      Destroy_Effect_Pf: {fileID: 1705284682975132108, guid: fbe62b974630487458f54bd7eaf3bfcb, type: 3}
+      Desc: "A group that lives in groups in a blue rock canyon. These packs of wolves
+        that have taken over the canyon It is a subject of fear and alert to nearby
+        animals. While gradually expanding its power Guided by the whispering voice,
+        I joined the battlefield. \"Aww~~~~\"\r"
+      Sprite_TowerCard: {fileID: 21300000, guid: b098f12c7717ca04f827d4ecdeeecb5a, type: 3}
+      Sprite_TowerProtrait: {fileID: 21300000, guid: e86ee112fa1af9d46936986970168b9c, type: 3}
+      AudioClip_Attack_Name: 0
+      AudioClip_Hit_Name: 0
+      AudioClip_Normal_Name: "Nomal_ES_Minion_Tower\r"
+      buffID: 0
+      MinionID: 5033
+    skillData:
+      NameLevel: 
+      Name: {fileID: 0}
+      ID: 0
+      Probability: 0
+      Classification: 0
+      Rank: 0
+      LockTime: 0
+      SkillType: 0
+      Value_1: 0
+      Value_2: 0
+      CoolTime: 0
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 0
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 0}
+      SkillIcon: {fileID: 0}
+      Desc: 
+  - itemName: Tower_Minion_Wolf4
+    ClassType: 
+    itemID: 4
+    itemDesc: "A group that lives in groups in a blue rock canyon. These packs of
+      wolves that have taken over the canyon It is a subject of fear and alert to
+      nearby animals. While gradually expanding its power Guided by the whispering
+      voice, I joined the battlefield. \"Aww~~~~\"\r"
+    itemIcon: {fileID: 21300000, guid: 9ff379d6dcc9c5543994800b1e392e94, type: 3}
+    objType: Minion_T
+    itemValue: 1
+    itemType: 10
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 100
+    CombinationValue: 0
+    towerData:
+      Name: Wolf_Tower4
+      NickName: Wolf Cave
+      ID: 3004
+      GroupID: 19
+      Rank: 4
+      Type: 4
+      Pf: {fileID: 2719887186148994814, guid: b0704d2253632714ba48b63ee466bd51, type: 3}
+      Combination_ResultID: 3005
+      Combination_Required_Value: 100
+      Normal_Random_Draw_Probability: 0
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 0
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 0.8333333
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 3.3333333
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 1
+      Attack_Speed: 0.3
+      Hp: 250
+      Range: 20
+      Range_Type: 4
+      Projectile_Type: 1
+      Projectile_Speed: 60
+      Projectile_Pf: {fileID: 3720574515718989771, guid: f1d5dac7ff3733e4faee3b02529b5a58, type: 3}
+      Destroy_Effect_Pf: {fileID: 1705284682975132108, guid: fbe62b974630487458f54bd7eaf3bfcb, type: 3}
+      Desc: "A group that lives in groups in a blue rock canyon. These packs of wolves
+        that have taken over the canyon It is a subject of fear and alert to nearby
+        animals. While gradually expanding its power Guided by the whispering voice,
+        I joined the battlefield. \"Aww~~~~\"\r"
+      Sprite_TowerCard: {fileID: 21300000, guid: 9ff379d6dcc9c5543994800b1e392e94, type: 3}
+      Sprite_TowerProtrait: {fileID: 21300000, guid: e86ee112fa1af9d46936986970168b9c, type: 3}
+      AudioClip_Attack_Name: 0
+      AudioClip_Hit_Name: 0
+      AudioClip_Normal_Name: "Nomal_ES_Minion_Tower\r"
+      buffID: 0
+      MinionID: 5034
+    skillData:
+      NameLevel: 
+      Name: {fileID: 0}
+      ID: 0
+      Probability: 0
+      Classification: 0
+      Rank: 0
+      LockTime: 0
+      SkillType: 0
+      Value_1: 0
+      Value_2: 0
+      CoolTime: 0
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 0
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 0}
+      SkillIcon: {fileID: 0}
+      Desc: 
+  - itemName: Tower_Minion_Wolf5
+    ClassType: 
+    itemID: 5
+    itemDesc: "A group that lives in groups in a blue rock canyon. These packs of
+      wolves that have taken over the canyon It is a subject of fear and alert to
+      nearby animals. While gradually expanding its power Guided by the whispering
+      voice, I joined the battlefield. \"Aww~~~~\"\r"
+    itemIcon: {fileID: 21300000, guid: 5b49bb2320bcfb544b86aa81c22b76d8, type: 3}
+    objType: Minion_T
+    itemValue: 1
+    itemType: 10
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 100
+    CombinationValue: 0
+    towerData:
+      Name: Wolf_Tower5
+      NickName: Wolf Cave
+      ID: 3005
+      GroupID: 19
+      Rank: 5
+      Type: 4
+      Pf: {fileID: 2719887186148994814, guid: b0704d2253632714ba48b63ee466bd51, type: 3}
+      Combination_ResultID: 0
+      Combination_Required_Value: 0
+      Normal_Random_Draw_Probability: 0
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 0
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 0.41666666
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 1.6666666
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 1
+      Attack_Speed: 0.3
+      Hp: 300
+      Range: 20
+      Range_Type: 4
+      Projectile_Type: 1
+      Projectile_Speed: 60
+      Projectile_Pf: {fileID: 3720574515718989771, guid: f1d5dac7ff3733e4faee3b02529b5a58, type: 3}
+      Destroy_Effect_Pf: {fileID: 1705284682975132108, guid: fbe62b974630487458f54bd7eaf3bfcb, type: 3}
+      Desc: "A group that lives in groups in a blue rock canyon. These packs of wolves
+        that have taken over the canyon It is a subject of fear and alert to nearby
+        animals. While gradually expanding its power Guided by the whispering voice,
+        I joined the battlefield. \"Aww~~~~\"\r"
+      Sprite_TowerCard: {fileID: 21300000, guid: 5b49bb2320bcfb544b86aa81c22b76d8, type: 3}
+      Sprite_TowerProtrait: {fileID: 21300000, guid: e86ee112fa1af9d46936986970168b9c, type: 3}
+      AudioClip_Attack_Name: 0
+      AudioClip_Hit_Name: 0
+      AudioClip_Normal_Name: "Nomal_ES_Minion_Tower\r"
+      buffID: 0
+      MinionID: 5035
+    skillData:
+      NameLevel: 
+      Name: {fileID: 0}
+      ID: 0
+      Probability: 0
+      Classification: 0
+      Rank: 0
+      LockTime: 0
+      SkillType: 0
+      Value_1: 0
+      Value_2: 0
+      CoolTime: 0
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 0
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 0}
+      SkillIcon: {fileID: 0}
+      Desc: 
+  - itemName: Tower_Minion_Golem1
+    ClassType: 
+    itemID: 6
+    itemDesc: "Golems, spirits of the earth born from the earth, have been communicating
+      with the earth since long ago. I've been caring for the land. As their land
+      became increasingly polluted, they became more ferocious. I'm out on the battlefield
+      to chastise the enemies who pollute the land! \"Kum!\"\r"
+    itemIcon: {fileID: 21300000, guid: 874a284c06ad5cf409909d18d2185b43, type: 3}
+    objType: Minion_T
+    itemValue: 1
+    itemType: 10
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 100
+    CombinationValue: 0
+    towerData:
+      Name: Golem_Tower
+      NickName: Golem Temple
+      ID: 3006
+      GroupID: 20
+      Rank: 1
+      Type: 4
+      Pf: {fileID: 2375627643360651068, guid: 93a798fb4b3843e4a9d0c34642f06e16, type: 3}
+      Combination_ResultID: 3007
+      Combination_Required_Value: 500
+      Normal_Random_Draw_Probability: 2.9166667
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 11.666667
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 0
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 0
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 1
+      Attack_Speed: 0.3
+      Hp: 100
+      Range: 20
+      Range_Type: 4
+      Projectile_Type: 1
+      Projectile_Speed: 60
+      Projectile_Pf: {fileID: 3720574515718989771, guid: f1d5dac7ff3733e4faee3b02529b5a58, type: 3}
+      Destroy_Effect_Pf: {fileID: 1705284682975132108, guid: fbe62b974630487458f54bd7eaf3bfcb, type: 3}
+      Desc: "Golems, spirits of the earth born from the earth, have been communicating
+        with the earth since long ago. I've been caring for the land. As their land
+        became increasingly polluted, they became more ferocious. I'm out on the
+        battlefield to chastise the enemies who pollute the land! \"Kum!\"\r"
+      Sprite_TowerCard: {fileID: 21300000, guid: 874a284c06ad5cf409909d18d2185b43, type: 3}
+      Sprite_TowerProtrait: {fileID: 21300000, guid: f2b0a0241eeb6e044932a56c3625ba16, type: 3}
+      AudioClip_Attack_Name: 0
+      AudioClip_Hit_Name: 0
+      AudioClip_Normal_Name: "0\r"
+      buffID: 0
+      MinionID: 5026
+    skillData:
+      NameLevel: 
+      Name: {fileID: 0}
+      ID: 0
+      Probability: 0
+      Classification: 0
+      Rank: 0
+      LockTime: 0
+      SkillType: 0
+      Value_1: 0
+      Value_2: 0
+      CoolTime: 0
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 0
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 0}
+      SkillIcon: {fileID: 0}
+      Desc: 
+  - itemName: Tower_Minion_Golem2
+    ClassType: 
+    itemID: 7
+    itemDesc: "Golems, spirits of the earth born from the earth, have been communicating
+      with the earth since long ago. I've been caring for the land. As their land
+      became increasingly polluted, they became more ferocious. I'm out on the battlefield
+      to chastise the enemies who pollute the land! \"Kum!\"\r"
+    itemIcon: {fileID: 21300000, guid: 86f0ef52422e84e40b05924d2fcc4595, type: 3}
+    objType: Minion_T
+    itemValue: 1
+    itemType: 10
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 100
+    CombinationValue: 0
+    towerData:
+      Name: Golem_Tower2
+      NickName: Golem Temple
+      ID: 3007
+      GroupID: 20
+      Rank: 2
+      Type: 4
+      Pf: {fileID: 2375627643360651068, guid: 93a798fb4b3843e4a9d0c34642f06e16, type: 3}
+      Combination_ResultID: 3008
+      Combination_Required_Value: 300
+      Normal_Random_Draw_Probability: 0.8333333
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 3.3333333
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 0
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 0
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 1
+      Attack_Speed: 0.3
+      Hp: 150
+      Range: 20
+      Range_Type: 4
+      Projectile_Type: 1
+      Projectile_Speed: 60
+      Projectile_Pf: {fileID: 3720574515718989771, guid: f1d5dac7ff3733e4faee3b02529b5a58, type: 3}
+      Destroy_Effect_Pf: {fileID: 1705284682975132108, guid: fbe62b974630487458f54bd7eaf3bfcb, type: 3}
+      Desc: "Golems, spirits of the earth born from the earth, have been communicating
+        with the earth since long ago. I've been caring for the land. As their land
+        became increasingly polluted, they became more ferocious. I'm out on the
+        battlefield to chastise the enemies who pollute the land! \"Kum!\"\r"
+      Sprite_TowerCard: {fileID: 21300000, guid: 86f0ef52422e84e40b05924d2fcc4595, type: 3}
+      Sprite_TowerProtrait: {fileID: 21300000, guid: f2b0a0241eeb6e044932a56c3625ba16, type: 3}
+      AudioClip_Attack_Name: 0
+      AudioClip_Hit_Name: 0
+      AudioClip_Normal_Name: "0\r"
+      buffID: 0
+      MinionID: 5027
+    skillData:
+      NameLevel: 
+      Name: {fileID: 0}
+      ID: 0
+      Probability: 0
+      Classification: 0
+      Rank: 0
+      LockTime: 0
+      SkillType: 0
+      Value_1: 0
+      Value_2: 0
+      CoolTime: 0
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 0
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 0}
+      SkillIcon: {fileID: 0}
+      Desc: 
+  - itemName: Tower_Minion_Golem3
+    ClassType: 
+    itemID: 8
+    itemDesc: "Golems, spirits of the earth born from the earth, have been communicating
+      with the earth since long ago. I've been caring for the land. As their land
+      became increasingly polluted, they became more ferocious. I'm out on the battlefield
+      to chastise the enemies who pollute the land! \"Kum!\"\r"
+    itemIcon: {fileID: 21300000, guid: 74ad5ded477cea441baf23ee9a662516, type: 3}
+    objType: Minion_T
+    itemValue: 1
+    itemType: 10
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 100
+    CombinationValue: 0
+    towerData:
+      Name: Golem_Tower3
+      NickName: Golem Temple
+      ID: 3008
+      GroupID: 20
+      Rank: 3
+      Type: 4
+      Pf: {fileID: 2375627643360651068, guid: 93a798fb4b3843e4a9d0c34642f06e16, type: 3}
+      Combination_ResultID: 3009
+      Combination_Required_Value: 200
+      Normal_Random_Draw_Probability: 0.41666666
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 1.6666666
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 2.9166667
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 11.666667
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 1
+      Attack_Speed: 0.3
+      Hp: 200
+      Range: 20
+      Range_Type: 4
+      Projectile_Type: 1
+      Projectile_Speed: 60
+      Projectile_Pf: {fileID: 3720574515718989771, guid: f1d5dac7ff3733e4faee3b02529b5a58, type: 3}
+      Destroy_Effect_Pf: {fileID: 1705284682975132108, guid: fbe62b974630487458f54bd7eaf3bfcb, type: 3}
+      Desc: "Golems, spirits of the earth born from the earth, have been communicating
+        with the earth since long ago. I've been caring for the land. As their land
+        became increasingly polluted, they became more ferocious. I'm out on the
+        battlefield to chastise the enemies who pollute the land! \"Kum!\"\r"
+      Sprite_TowerCard: {fileID: 21300000, guid: 74ad5ded477cea441baf23ee9a662516, type: 3}
+      Sprite_TowerProtrait: {fileID: 21300000, guid: f2b0a0241eeb6e044932a56c3625ba16, type: 3}
+      AudioClip_Attack_Name: 0
+      AudioClip_Hit_Name: 0
+      AudioClip_Normal_Name: "0\r"
+      buffID: 0
+      MinionID: 5028
+    skillData:
+      NameLevel: 
+      Name: {fileID: 0}
+      ID: 0
+      Probability: 0
+      Classification: 0
+      Rank: 0
+      LockTime: 0
+      SkillType: 0
+      Value_1: 0
+      Value_2: 0
+      CoolTime: 0
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 0
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 0}
+      SkillIcon: {fileID: 0}
+      Desc: 
+  - itemName: Tower_Minion_Golem4
+    ClassType: 
+    itemID: 9
+    itemDesc: "Golems, spirits of the earth born from the earth, have been communicating
+      with the earth since long ago. I've been caring for the land. As their land
+      became increasingly polluted, they became more ferocious. I'm out on the battlefield
+      to chastise the enemies who pollute the land! \"Kum!\"\r"
+    itemIcon: {fileID: 21300000, guid: e32a7fe0ed86ec642b97bbf0e4c09b9b, type: 3}
+    objType: Minion_T
+    itemValue: 1
+    itemType: 10
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 100
+    CombinationValue: 0
+    towerData:
+      Name: Golem_Tower4
+      NickName: Golem Temple
+      ID: 3009
+      GroupID: 20
+      Rank: 4
+      Type: 4
+      Pf: {fileID: 2375627643360651068, guid: 93a798fb4b3843e4a9d0c34642f06e16, type: 3}
+      Combination_ResultID: 3010
+      Combination_Required_Value: 100
+      Normal_Random_Draw_Probability: 0
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 0
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 0.8333333
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 3.3333333
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 1
+      Attack_Speed: 0.3
+      Hp: 250
+      Range: 20
+      Range_Type: 4
+      Projectile_Type: 1
+      Projectile_Speed: 60
+      Projectile_Pf: {fileID: 3720574515718989771, guid: f1d5dac7ff3733e4faee3b02529b5a58, type: 3}
+      Destroy_Effect_Pf: {fileID: 1705284682975132108, guid: fbe62b974630487458f54bd7eaf3bfcb, type: 3}
+      Desc: "Golems, spirits of the earth born from the earth, have been communicating
+        with the earth since long ago. I've been caring for the land. As their land
+        became increasingly polluted, they became more ferocious. I'm out on the
+        battlefield to chastise the enemies who pollute the land! \"Kum!\"\r"
+      Sprite_TowerCard: {fileID: 21300000, guid: e32a7fe0ed86ec642b97bbf0e4c09b9b, type: 3}
+      Sprite_TowerProtrait: {fileID: 21300000, guid: f2b0a0241eeb6e044932a56c3625ba16, type: 3}
+      AudioClip_Attack_Name: 0
+      AudioClip_Hit_Name: 0
+      AudioClip_Normal_Name: "0\r"
+      buffID: 0
+      MinionID: 5029
+    skillData:
+      NameLevel: 
+      Name: {fileID: 0}
+      ID: 0
+      Probability: 0
+      Classification: 0
+      Rank: 0
+      LockTime: 0
+      SkillType: 0
+      Value_1: 0
+      Value_2: 0
+      CoolTime: 0
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 0
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 0}
+      SkillIcon: {fileID: 0}
+      Desc: 
+  - itemName: Tower_Minion_Golem5
+    ClassType: 
+    itemID: 10
+    itemDesc: "Golems, spirits of the earth born from the earth, have been communicating
+      with the earth since long ago. I've been caring for the land. As their land
+      became increasingly polluted, they became more ferocious. I'm out on the battlefield
+      to chastise the enemies who pollute the land! \"Kum!\"\r"
+    itemIcon: {fileID: 21300000, guid: 0f51e89f995c9cb46bb1e6c574a7c5e5, type: 3}
+    objType: Minion_T
+    itemValue: 1
+    itemType: 10
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 100
+    CombinationValue: 0
+    towerData:
+      Name: Golem_Tower5
+      NickName: Golem Temple
+      ID: 3010
+      GroupID: 20
+      Rank: 5
+      Type: 4
+      Pf: {fileID: 2375627643360651068, guid: 93a798fb4b3843e4a9d0c34642f06e16, type: 3}
+      Combination_ResultID: 0
+      Combination_Required_Value: 0
+      Normal_Random_Draw_Probability: 0
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 0
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 0.41666666
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 1.6666666
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 1
+      Attack_Speed: 0.3
+      Hp: 300
+      Range: 20
+      Range_Type: 4
+      Projectile_Type: 1
+      Projectile_Speed: 60
+      Projectile_Pf: {fileID: 3720574515718989771, guid: f1d5dac7ff3733e4faee3b02529b5a58, type: 3}
+      Destroy_Effect_Pf: {fileID: 1705284682975132108, guid: fbe62b974630487458f54bd7eaf3bfcb, type: 3}
+      Desc: "Golems, spirits of the earth born from the earth, have been communicating
+        with the earth since long ago. I've been caring for the land. As their land
+        became increasingly polluted, they became more ferocious. I'm out on the
+        battlefield to chastise the enemies who pollute the land! \"Kum!\"\r"
+      Sprite_TowerCard: {fileID: 21300000, guid: 0f51e89f995c9cb46bb1e6c574a7c5e5, type: 3}
+      Sprite_TowerProtrait: {fileID: 21300000, guid: f2b0a0241eeb6e044932a56c3625ba16, type: 3}
+      AudioClip_Attack_Name: 0
+      AudioClip_Hit_Name: 0
+      AudioClip_Normal_Name: "0\r"
+      buffID: 0
+      MinionID: 5030
+    skillData:
+      NameLevel: 
+      Name: {fileID: 0}
+      ID: 0
+      Probability: 0
+      Classification: 0
+      Rank: 0
+      LockTime: 0
+      SkillType: 0
+      Value_1: 0
+      Value_2: 0
+      CoolTime: 0
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 0
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 0}
+      SkillIcon: {fileID: 0}
+      Desc: 
+  - itemName: Tower_Minion_TreantGuard1
+    ClassType: 
+    itemID: 11
+    itemDesc: "A guardian of the nerd forest, he moves to eliminate the forest invaders.
+      \"Um Racha!\r"
+    itemIcon: {fileID: 21300000, guid: 40a5c20ad98354e45af3b55b30767a1f, type: 3}
+    objType: Minion_T
+    itemValue: 1
+    itemType: 10
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 100
+    CombinationValue: 0
+    towerData:
+      Name: TreantGuard_Tower
+      NickName: TreantGuard Gate
+      ID: 3011
+      GroupID: 21
+      Rank: 1
+      Type: 4
+      Pf: {fileID: 1862620217445196292, guid: d23dcc87196ac024694551c0be14f3ec, type: 3}
+      Combination_ResultID: 3012
+      Combination_Required_Value: 500
+      Normal_Random_Draw_Probability: 2.9166667
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 11.666667
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 0
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 0
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 1
+      Attack_Speed: 0.3
+      Hp: 100
+      Range: 20
+      Range_Type: 4
+      Projectile_Type: 1
+      Projectile_Speed: 60
+      Projectile_Pf: {fileID: 3720574515718989771, guid: f1d5dac7ff3733e4faee3b02529b5a58, type: 3}
+      Destroy_Effect_Pf: {fileID: 1705284682975132108, guid: fbe62b974630487458f54bd7eaf3bfcb, type: 3}
+      Desc: "A guardian of the nerd forest, he moves to eliminate the forest invaders.
+        \"Um Racha!\r"
+      Sprite_TowerCard: {fileID: 21300000, guid: 40a5c20ad98354e45af3b55b30767a1f, type: 3}
+      Sprite_TowerProtrait: {fileID: 21300000, guid: a5b60337856a46d4b9143fda34cebf2a, type: 3}
+      AudioClip_Attack_Name: 0
+      AudioClip_Hit_Name: 0
+      AudioClip_Normal_Name: "0\r"
+      buffID: 0
+      MinionID: 5046
+    skillData:
+      NameLevel: 
+      Name: {fileID: 0}
+      ID: 0
+      Probability: 0
+      Classification: 0
+      Rank: 0
+      LockTime: 0
+      SkillType: 0
+      Value_1: 0
+      Value_2: 0
+      CoolTime: 0
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 0
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 0}
+      SkillIcon: {fileID: 0}
+      Desc: 
+  - itemName: Tower_Minion_TreantGuard2
+    ClassType: 
+    itemID: 12
+    itemDesc: "A guardian of the nerd forest, he moves to eliminate the forest invaders.
+      \"Um Racha!\r"
+    itemIcon: {fileID: 21300000, guid: ade50a1b23242ac45b60677aa5473850, type: 3}
+    objType: Minion_T
+    itemValue: 1
+    itemType: 10
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 100
+    CombinationValue: 0
+    towerData:
+      Name: TreantGuard_Tower2
+      NickName: TreantGuard Gate
+      ID: 3012
+      GroupID: 21
+      Rank: 2
+      Type: 4
+      Pf: {fileID: 1862620217445196292, guid: d23dcc87196ac024694551c0be14f3ec, type: 3}
+      Combination_ResultID: 3013
+      Combination_Required_Value: 300
+      Normal_Random_Draw_Probability: 0.8333333
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 3.3333333
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 0
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 0
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 1
+      Attack_Speed: 0.3
+      Hp: 150
+      Range: 20
+      Range_Type: 4
+      Projectile_Type: 1
+      Projectile_Speed: 60
+      Projectile_Pf: {fileID: 3720574515718989771, guid: f1d5dac7ff3733e4faee3b02529b5a58, type: 3}
+      Destroy_Effect_Pf: {fileID: 1705284682975132108, guid: fbe62b974630487458f54bd7eaf3bfcb, type: 3}
+      Desc: "A guardian of the nerd forest, he moves to eliminate the forest invaders.
+        \"Um Racha!\r"
+      Sprite_TowerCard: {fileID: 21300000, guid: ade50a1b23242ac45b60677aa5473850, type: 3}
+      Sprite_TowerProtrait: {fileID: 21300000, guid: a5b60337856a46d4b9143fda34cebf2a, type: 3}
+      AudioClip_Attack_Name: 0
+      AudioClip_Hit_Name: 0
+      AudioClip_Normal_Name: "0\r"
+      buffID: 0
+      MinionID: 5047
+    skillData:
+      NameLevel: 
+      Name: {fileID: 0}
+      ID: 0
+      Probability: 0
+      Classification: 0
+      Rank: 0
+      LockTime: 0
+      SkillType: 0
+      Value_1: 0
+      Value_2: 0
+      CoolTime: 0
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 0
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 0}
+      SkillIcon: {fileID: 0}
+      Desc: 
+  - itemName: Tower_Minion_TreantGuard3
+    ClassType: 
+    itemID: 13
+    itemDesc: "A guardian of the nerd forest, he moves to eliminate the forest invaders.
+      \"Um Racha!\r"
+    itemIcon: {fileID: 21300000, guid: bb75ef9f712604f4b85ccf3714ee288e, type: 3}
+    objType: Minion_T
+    itemValue: 1
+    itemType: 10
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 100
+    CombinationValue: 0
+    towerData:
+      Name: TreantGuard_Tower3
+      NickName: TreantGuard Gate
+      ID: 3013
+      GroupID: 21
+      Rank: 3
+      Type: 4
+      Pf: {fileID: 1862620217445196292, guid: d23dcc87196ac024694551c0be14f3ec, type: 3}
+      Combination_ResultID: 3014
+      Combination_Required_Value: 200
+      Normal_Random_Draw_Probability: 0.41666666
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 1.6666666
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 2.9166667
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 11.666667
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 1
+      Attack_Speed: 0.3
+      Hp: 200
+      Range: 20
+      Range_Type: 4
+      Projectile_Type: 1
+      Projectile_Speed: 60
+      Projectile_Pf: {fileID: 3720574515718989771, guid: f1d5dac7ff3733e4faee3b02529b5a58, type: 3}
+      Destroy_Effect_Pf: {fileID: 1705284682975132108, guid: fbe62b974630487458f54bd7eaf3bfcb, type: 3}
+      Desc: "A guardian of the nerd forest, he moves to eliminate the forest invaders.
+        \"Um Racha!\r"
+      Sprite_TowerCard: {fileID: 21300000, guid: bb75ef9f712604f4b85ccf3714ee288e, type: 3}
+      Sprite_TowerProtrait: {fileID: 21300000, guid: a5b60337856a46d4b9143fda34cebf2a, type: 3}
+      AudioClip_Attack_Name: 0
+      AudioClip_Hit_Name: 0
+      AudioClip_Normal_Name: "0\r"
+      buffID: 0
+      MinionID: 5048
+    skillData:
+      NameLevel: 
+      Name: {fileID: 0}
+      ID: 0
+      Probability: 0
+      Classification: 0
+      Rank: 0
+      LockTime: 0
+      SkillType: 0
+      Value_1: 0
+      Value_2: 0
+      CoolTime: 0
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 0
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 0}
+      SkillIcon: {fileID: 0}
+      Desc: 
+  - itemName: Tower_Minion_TreantGuard4
+    ClassType: 
+    itemID: 14
+    itemDesc: "A guardian of the nerd forest, he moves to eliminate the forest invaders.
+      \"Um Racha!\r"
+    itemIcon: {fileID: 21300000, guid: b1b6996794984ad42ba0f972ef7a7b48, type: 3}
+    objType: Minion_T
+    itemValue: 1
+    itemType: 10
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 100
+    CombinationValue: 0
+    towerData:
+      Name: TreantGuard_Tower4
+      NickName: TreantGuard Gate
+      ID: 3014
+      GroupID: 21
+      Rank: 4
+      Type: 4
+      Pf: {fileID: 1862620217445196292, guid: d23dcc87196ac024694551c0be14f3ec, type: 3}
+      Combination_ResultID: 3015
+      Combination_Required_Value: 100
+      Normal_Random_Draw_Probability: 0
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 0
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 0.8333333
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 3.3333333
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 1
+      Attack_Speed: 0.3
+      Hp: 250
+      Range: 20
+      Range_Type: 4
+      Projectile_Type: 1
+      Projectile_Speed: 60
+      Projectile_Pf: {fileID: 3720574515718989771, guid: f1d5dac7ff3733e4faee3b02529b5a58, type: 3}
+      Destroy_Effect_Pf: {fileID: 1705284682975132108, guid: fbe62b974630487458f54bd7eaf3bfcb, type: 3}
+      Desc: "A guardian of the nerd forest, he moves to eliminate the forest invaders.
+        \"Um Racha!\r"
+      Sprite_TowerCard: {fileID: 21300000, guid: b1b6996794984ad42ba0f972ef7a7b48, type: 3}
+      Sprite_TowerProtrait: {fileID: 21300000, guid: a5b60337856a46d4b9143fda34cebf2a, type: 3}
+      AudioClip_Attack_Name: 0
+      AudioClip_Hit_Name: 0
+      AudioClip_Normal_Name: "0\r"
+      buffID: 0
+      MinionID: 5049
+    skillData:
+      NameLevel: 
+      Name: {fileID: 0}
+      ID: 0
+      Probability: 0
+      Classification: 0
+      Rank: 0
+      LockTime: 0
+      SkillType: 0
+      Value_1: 0
+      Value_2: 0
+      CoolTime: 0
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 0
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 0}
+      SkillIcon: {fileID: 0}
+      Desc: 
+  - itemName: Tower_Minion_TreantGuard5
+    ClassType: 
+    itemID: 15
+    itemDesc: "A guardian of the nerd forest, he moves to eliminate the forest invaders.
+      \"Um Racha!\r"
+    itemIcon: {fileID: 21300000, guid: 202f9e9bdcefedb4293a91d75c4078c1, type: 3}
+    objType: Minion_T
+    itemValue: 1
+    itemType: 10
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 100
+    CombinationValue: 0
+    towerData:
+      Name: TreantGuard_Tower5
+      NickName: TreantGuard Gate
+      ID: 3015
+      GroupID: 21
+      Rank: 5
+      Type: 4
+      Pf: {fileID: 1862620217445196292, guid: d23dcc87196ac024694551c0be14f3ec, type: 3}
+      Combination_ResultID: 0
+      Combination_Required_Value: 0
+      Normal_Random_Draw_Probability: 0
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 0
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 0.41666666
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 1.6666666
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 1
+      Attack_Speed: 0.3
+      Hp: 300
+      Range: 20
+      Range_Type: 4
+      Projectile_Type: 1
+      Projectile_Speed: 60
+      Projectile_Pf: {fileID: 3720574515718989771, guid: f1d5dac7ff3733e4faee3b02529b5a58, type: 3}
+      Destroy_Effect_Pf: {fileID: 1705284682975132108, guid: fbe62b974630487458f54bd7eaf3bfcb, type: 3}
+      Desc: "A guardian of the nerd forest, he moves to eliminate the forest invaders.
+        \"Um Racha!\r"
+      Sprite_TowerCard: {fileID: 21300000, guid: 202f9e9bdcefedb4293a91d75c4078c1, type: 3}
+      Sprite_TowerProtrait: {fileID: 21300000, guid: a5b60337856a46d4b9143fda34cebf2a, type: 3}
+      AudioClip_Attack_Name: 0
+      AudioClip_Hit_Name: 0
+      AudioClip_Normal_Name: "0\r"
+      buffID: 0
+      MinionID: 5050
+    skillData:
+      NameLevel: 
+      Name: {fileID: 0}
+      ID: 0
+      Probability: 0
+      Classification: 0
+      Rank: 0
+      LockTime: 0
+      SkillType: 0
+      Value_1: 0
+      Value_2: 0
+      CoolTime: 0
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 0
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 0}
+      SkillIcon: {fileID: 0}
+      Desc: 
+  - itemName: Tower_Minion_Goblin1
+    ClassType: 
+    itemID: 16
+    itemDesc: "Goblins who built their own kingdom in the deep tunnels of the red
+      mine. \"Kick...key...key...kick!\" With red eyes and a mischievous smile, the
+      enemies A naughty guy who makes fun of you. Because of their habit of attacking
+      in groups It's hard to run away from them anyway!\r"
+    itemIcon: {fileID: 21300000, guid: 9ac8675880a82014db738e12ceec5666, type: 3}
+    objType: Minion_T
+    itemValue: 1
+    itemType: 10
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 100
+    CombinationValue: 0
+    towerData:
+      Name: Goblin_Tower
+      NickName: Goblin Cave
+      ID: 3016
+      GroupID: 22
+      Rank: 1
+      Type: 4
+      Pf: {fileID: 736391118400893160, guid: 3704162df214a9d4db9c52de56b4c70e, type: 3}
+      Combination_ResultID: 3017
+      Combination_Required_Value: 500
+      Normal_Random_Draw_Probability: 2.9166667
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 11.666667
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 0
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 0
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 1
+      Attack_Speed: 0.3
+      Hp: 100
+      Range: 20
+      Range_Type: 4
+      Projectile_Type: 1
+      Projectile_Speed: 60
+      Projectile_Pf: {fileID: 3720574515718989771, guid: f1d5dac7ff3733e4faee3b02529b5a58, type: 3}
+      Destroy_Effect_Pf: {fileID: 1705284682975132108, guid: fbe62b974630487458f54bd7eaf3bfcb, type: 3}
+      Desc: "Goblins who built their own kingdom in the deep tunnels of the red mine.
+        \"Kick...key...key...kick!\" With red eyes and a mischievous smile, the enemies
+        A naughty guy who makes fun of you. Because of their habit of attacking in
+        groups It's hard to run away from them anyway!\r"
+      Sprite_TowerCard: {fileID: 21300000, guid: 9ac8675880a82014db738e12ceec5666, type: 3}
+      Sprite_TowerProtrait: {fileID: 21300000, guid: 67d217d9f31cce249af0e75e504863df, type: 3}
+      AudioClip_Attack_Name: 0
+      AudioClip_Hit_Name: 0
+      AudioClip_Normal_Name: "0\r"
+      buffID: 0
+      MinionID: 5051
+    skillData:
+      NameLevel: 
+      Name: {fileID: 0}
+      ID: 0
+      Probability: 0
+      Classification: 0
+      Rank: 0
+      LockTime: 0
+      SkillType: 0
+      Value_1: 0
+      Value_2: 0
+      CoolTime: 0
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 0
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 0}
+      SkillIcon: {fileID: 0}
+      Desc: 
+  - itemName: Tower_Minion_Goblin2
+    ClassType: 
+    itemID: 17
+    itemDesc: "Goblins who built their own kingdom in the deep tunnels of the red
+      mine. \"Kick...key...key...kick!\" With red eyes and a mischievous smile, the
+      enemies A naughty guy who makes fun of you. Because of their habit of attacking
+      in groups It's hard to run away from them anyway!\r"
+    itemIcon: {fileID: 21300000, guid: 4365f453424e61b45bb014d538d345b1, type: 3}
+    objType: Minion_T
+    itemValue: 1
+    itemType: 10
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 100
+    CombinationValue: 0
+    towerData:
+      Name: Goblin_Tower2
+      NickName: Goblin Cave
+      ID: 3017
+      GroupID: 22
+      Rank: 2
+      Type: 4
+      Pf: {fileID: 736391118400893160, guid: 3704162df214a9d4db9c52de56b4c70e, type: 3}
+      Combination_ResultID: 3018
+      Combination_Required_Value: 300
+      Normal_Random_Draw_Probability: 0.8333333
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 3.3333333
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 0
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 0
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 1
+      Attack_Speed: 0.3
+      Hp: 150
+      Range: 20
+      Range_Type: 4
+      Projectile_Type: 1
+      Projectile_Speed: 60
+      Projectile_Pf: {fileID: 3720574515718989771, guid: f1d5dac7ff3733e4faee3b02529b5a58, type: 3}
+      Destroy_Effect_Pf: {fileID: 1705284682975132108, guid: fbe62b974630487458f54bd7eaf3bfcb, type: 3}
+      Desc: "Goblins who built their own kingdom in the deep tunnels of the red mine.
+        \"Kick...key...key...kick!\" With red eyes and a mischievous smile, the enemies
+        A naughty guy who makes fun of you. Because of their habit of attacking in
+        groups It's hard to run away from them anyway!\r"
+      Sprite_TowerCard: {fileID: 21300000, guid: 4365f453424e61b45bb014d538d345b1, type: 3}
+      Sprite_TowerProtrait: {fileID: 21300000, guid: 67d217d9f31cce249af0e75e504863df, type: 3}
+      AudioClip_Attack_Name: 0
+      AudioClip_Hit_Name: 0
+      AudioClip_Normal_Name: "0\r"
+      buffID: 0
+      MinionID: 5052
+    skillData:
+      NameLevel: 
+      Name: {fileID: 0}
+      ID: 0
+      Probability: 0
+      Classification: 0
+      Rank: 0
+      LockTime: 0
+      SkillType: 0
+      Value_1: 0
+      Value_2: 0
+      CoolTime: 0
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 0
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 0}
+      SkillIcon: {fileID: 0}
+      Desc: 
+  - itemName: Tower_Minion_Goblin3
+    ClassType: 
+    itemID: 18
+    itemDesc: "Goblins who built their own kingdom in the deep tunnels of the red
+      mine. \"Kick...key...key...kick!\" With red eyes and a mischievous smile, the
+      enemies A naughty guy who makes fun of you. Because of their habit of attacking
+      in groups It's hard to run away from them anyway!\r"
+    itemIcon: {fileID: 21300000, guid: a63bbadb93e2998478f500c6b2a3c2f0, type: 3}
+    objType: Minion_T
+    itemValue: 1
+    itemType: 10
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 100
+    CombinationValue: 0
+    towerData:
+      Name: Goblin_Tower3
+      NickName: Goblin Cave
+      ID: 3018
+      GroupID: 22
+      Rank: 3
+      Type: 4
+      Pf: {fileID: 736391118400893160, guid: 3704162df214a9d4db9c52de56b4c70e, type: 3}
+      Combination_ResultID: 3019
+      Combination_Required_Value: 200
+      Normal_Random_Draw_Probability: 0.41666666
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 1.6666666
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 2.9166667
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 11.666667
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 1
+      Attack_Speed: 0.3
+      Hp: 200
+      Range: 20
+      Range_Type: 4
+      Projectile_Type: 1
+      Projectile_Speed: 60
+      Projectile_Pf: {fileID: 3720574515718989771, guid: f1d5dac7ff3733e4faee3b02529b5a58, type: 3}
+      Destroy_Effect_Pf: {fileID: 1705284682975132108, guid: fbe62b974630487458f54bd7eaf3bfcb, type: 3}
+      Desc: "Goblins who built their own kingdom in the deep tunnels of the red mine.
+        \"Kick...key...key...kick!\" With red eyes and a mischievous smile, the enemies
+        A naughty guy who makes fun of you. Because of their habit of attacking in
+        groups It's hard to run away from them anyway!\r"
+      Sprite_TowerCard: {fileID: 21300000, guid: a63bbadb93e2998478f500c6b2a3c2f0, type: 3}
+      Sprite_TowerProtrait: {fileID: 21300000, guid: 67d217d9f31cce249af0e75e504863df, type: 3}
+      AudioClip_Attack_Name: 0
+      AudioClip_Hit_Name: 0
+      AudioClip_Normal_Name: "0\r"
+      buffID: 0
+      MinionID: 5053
+    skillData:
+      NameLevel: 
+      Name: {fileID: 0}
+      ID: 0
+      Probability: 0
+      Classification: 0
+      Rank: 0
+      LockTime: 0
+      SkillType: 0
+      Value_1: 0
+      Value_2: 0
+      CoolTime: 0
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 0
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 0}
+      SkillIcon: {fileID: 0}
+      Desc: 
+  - itemName: Tower_Minion_Goblin4
+    ClassType: 
+    itemID: 19
+    itemDesc: "Goblins who built their own kingdom in the deep tunnels of the red
+      mine. \"Kick...key...key...kick!\" With red eyes and a mischievous smile, the
+      enemies A naughty guy who makes fun of you. Because of their habit of attacking
+      in groups It's hard to run away from them anyway!\r"
+    itemIcon: {fileID: 21300000, guid: e8d9ac91d16f3fc4a96ebe78f0072d25, type: 3}
+    objType: Minion_T
+    itemValue: 1
+    itemType: 10
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 100
+    CombinationValue: 0
+    towerData:
+      Name: Goblin_Tower4
+      NickName: Goblin Cave
+      ID: 3019
+      GroupID: 22
+      Rank: 4
+      Type: 4
+      Pf: {fileID: 736391118400893160, guid: 3704162df214a9d4db9c52de56b4c70e, type: 3}
+      Combination_ResultID: 3020
+      Combination_Required_Value: 100
+      Normal_Random_Draw_Probability: 0
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 0
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 0.8333333
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 3.3333333
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 1
+      Attack_Speed: 0.3
+      Hp: 250
+      Range: 20
+      Range_Type: 4
+      Projectile_Type: 1
+      Projectile_Speed: 60
+      Projectile_Pf: {fileID: 3720574515718989771, guid: f1d5dac7ff3733e4faee3b02529b5a58, type: 3}
+      Destroy_Effect_Pf: {fileID: 1705284682975132108, guid: fbe62b974630487458f54bd7eaf3bfcb, type: 3}
+      Desc: "Goblins who built their own kingdom in the deep tunnels of the red mine.
+        \"Kick...key...key...kick!\" With red eyes and a mischievous smile, the enemies
+        A naughty guy who makes fun of you. Because of their habit of attacking in
+        groups It's hard to run away from them anyway!\r"
+      Sprite_TowerCard: {fileID: 21300000, guid: e8d9ac91d16f3fc4a96ebe78f0072d25, type: 3}
+      Sprite_TowerProtrait: {fileID: 21300000, guid: 67d217d9f31cce249af0e75e504863df, type: 3}
+      AudioClip_Attack_Name: 0
+      AudioClip_Hit_Name: 0
+      AudioClip_Normal_Name: "0\r"
+      buffID: 0
+      MinionID: 5054
+    skillData:
+      NameLevel: 
+      Name: {fileID: 0}
+      ID: 0
+      Probability: 0
+      Classification: 0
+      Rank: 0
+      LockTime: 0
+      SkillType: 0
+      Value_1: 0
+      Value_2: 0
+      CoolTime: 0
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 0
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 0}
+      SkillIcon: {fileID: 0}
+      Desc: 
+  - itemName: Tower_Minion_Goblin5
+    ClassType: 
+    itemID: 20
+    itemDesc: "Goblins who built their own kingdom in the deep tunnels of the red
+      mine. \"Kick...key...key...kick!\" With red eyes and a mischievous smile, the
+      enemies A naughty guy who makes fun of you. Because of their habit of attacking
+      in groups It's hard to run away from them anyway!\r"
+    itemIcon: {fileID: 21300000, guid: e8cb8e19b327a8d42b0c18476531f113, type: 3}
+    objType: Minion_T
+    itemValue: 1
+    itemType: 10
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 100
+    CombinationValue: 0
+    towerData:
+      Name: Goblin_Tower5
+      NickName: Goblin Cave
+      ID: 3020
+      GroupID: 22
+      Rank: 5
+      Type: 4
+      Pf: {fileID: 736391118400893160, guid: 3704162df214a9d4db9c52de56b4c70e, type: 3}
+      Combination_ResultID: 0
+      Combination_Required_Value: 0
+      Normal_Random_Draw_Probability: 0
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 0
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 0.41666666
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 1.6666666
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 1
+      Attack_Speed: 0.3
+      Hp: 300
+      Range: 20
+      Range_Type: 4
+      Projectile_Type: 1
+      Projectile_Speed: 60
+      Projectile_Pf: {fileID: 3720574515718989771, guid: f1d5dac7ff3733e4faee3b02529b5a58, type: 3}
+      Destroy_Effect_Pf: {fileID: 1705284682975132108, guid: fbe62b974630487458f54bd7eaf3bfcb, type: 3}
+      Desc: "Goblins who built their own kingdom in the deep tunnels of the red mine.
+        \"Kick...key...key...kick!\" With red eyes and a mischievous smile, the enemies
+        A naughty guy who makes fun of you. Because of their habit of attacking in
+        groups It's hard to run away from them anyway!\r"
+      Sprite_TowerCard: {fileID: 21300000, guid: e8cb8e19b327a8d42b0c18476531f113, type: 3}
+      Sprite_TowerProtrait: {fileID: 21300000, guid: 67d217d9f31cce249af0e75e504863df, type: 3}
+      AudioClip_Attack_Name: 0
+      AudioClip_Hit_Name: 0
+      AudioClip_Normal_Name: "0\r"
+      buffID: 0
+      MinionID: 5055
+    skillData:
+      NameLevel: 
+      Name: {fileID: 0}
+      ID: 0
+      Probability: 0
+      Classification: 0
+      Rank: 0
+      LockTime: 0
+      SkillType: 0
+      Value_1: 0
+      Value_2: 0
+      CoolTime: 0
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 0
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 0}
+      SkillIcon: {fileID: 0}
+      Desc: 
+  - itemName: Tower_Minion_Monster_Bee1
+    ClassType: 
+    itemID: 21
+    itemDesc: "This gigantic, ruthless bee trembles in terror with its fast flapping
+      wings and noise. I'm making it With indiscriminate violence, these monsters
+      inflict great terror on their target. \"Weeeeeee~~~\"\r"
+    itemIcon: {fileID: 21300000, guid: 330f7ccce54b4a4489ab3a21df1c89cc, type: 3}
+    objType: Minion_T
+    itemValue: 1
+    itemType: 10
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 100
+    CombinationValue: 0
+    towerData:
+      Name: Monster_Bee_Tower
+      NickName: Honeycomb
+      ID: 3021
+      GroupID: 23
+      Rank: 1
+      Type: 4
+      Pf: {fileID: 7566052548809756703, guid: cf8331d328f161b4a9d9adc21bc336ee, type: 3}
+      Combination_ResultID: 3022
+      Combination_Required_Value: 500
+      Normal_Random_Draw_Probability: 2.9166667
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 11.666667
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 0
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 0
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 1
+      Attack_Speed: 0.3
+      Hp: 100
+      Range: 20
+      Range_Type: 4
+      Projectile_Type: 1
+      Projectile_Speed: 60
+      Projectile_Pf: {fileID: 3720574515718989771, guid: f1d5dac7ff3733e4faee3b02529b5a58, type: 3}
+      Destroy_Effect_Pf: {fileID: 1705284682975132108, guid: fbe62b974630487458f54bd7eaf3bfcb, type: 3}
+      Desc: "This gigantic, ruthless bee trembles in terror with its fast flapping
+        wings and noise. I'm making it With indiscriminate violence, these monsters
+        inflict great terror on their target. \"Weeeeeee~~~\"\r"
+      Sprite_TowerCard: {fileID: 21300000, guid: 330f7ccce54b4a4489ab3a21df1c89cc, type: 3}
+      Sprite_TowerProtrait: {fileID: 21300000, guid: c38c42b8c72a18e47b736cb946f1c9c6, type: 3}
+      AudioClip_Attack_Name: 0
+      AudioClip_Hit_Name: 0
+      AudioClip_Normal_Name: "0\r"
+      buffID: 0
+      MinionID: 5036
+    skillData:
+      NameLevel: 
+      Name: {fileID: 0}
+      ID: 0
+      Probability: 0
+      Classification: 0
+      Rank: 0
+      LockTime: 0
+      SkillType: 0
+      Value_1: 0
+      Value_2: 0
+      CoolTime: 0
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 0
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 0}
+      SkillIcon: {fileID: 0}
+      Desc: 
+  - itemName: Tower_Minion_Monster_Bee2
+    ClassType: 
+    itemID: 22
+    itemDesc: "This gigantic, ruthless bee trembles in terror with its fast flapping
+      wings and noise. I'm making it With indiscriminate violence, these monsters
+      inflict great terror on their target. \"Weeeeeee~~~\"\r"
+    itemIcon: {fileID: 21300000, guid: d052844a159cb154b8b550aaff92fd93, type: 3}
+    objType: Minion_T
+    itemValue: 1
+    itemType: 10
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 100
+    CombinationValue: 0
+    towerData:
+      Name: Monster_Bee_Tower2
+      NickName: Honeycomb
+      ID: 3022
+      GroupID: 23
+      Rank: 2
+      Type: 4
+      Pf: {fileID: 7566052548809756703, guid: cf8331d328f161b4a9d9adc21bc336ee, type: 3}
+      Combination_ResultID: 3023
+      Combination_Required_Value: 300
+      Normal_Random_Draw_Probability: 0.8333333
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 3.3333333
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 0
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 0
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 1
+      Attack_Speed: 0.3
+      Hp: 150
+      Range: 20
+      Range_Type: 4
+      Projectile_Type: 1
+      Projectile_Speed: 60
+      Projectile_Pf: {fileID: 3720574515718989771, guid: f1d5dac7ff3733e4faee3b02529b5a58, type: 3}
+      Destroy_Effect_Pf: {fileID: 1705284682975132108, guid: fbe62b974630487458f54bd7eaf3bfcb, type: 3}
+      Desc: "This gigantic, ruthless bee trembles in terror with its fast flapping
+        wings and noise. I'm making it With indiscriminate violence, these monsters
+        inflict great terror on their target. \"Weeeeeee~~~\"\r"
+      Sprite_TowerCard: {fileID: 21300000, guid: d052844a159cb154b8b550aaff92fd93, type: 3}
+      Sprite_TowerProtrait: {fileID: 21300000, guid: c38c42b8c72a18e47b736cb946f1c9c6, type: 3}
+      AudioClip_Attack_Name: 0
+      AudioClip_Hit_Name: 0
+      AudioClip_Normal_Name: "0\r"
+      buffID: 0
+      MinionID: 5037
+    skillData:
+      NameLevel: 
+      Name: {fileID: 0}
+      ID: 0
+      Probability: 0
+      Classification: 0
+      Rank: 0
+      LockTime: 0
+      SkillType: 0
+      Value_1: 0
+      Value_2: 0
+      CoolTime: 0
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 0
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 0}
+      SkillIcon: {fileID: 0}
+      Desc: 
+  - itemName: Tower_Minion_Monster_Bee3
+    ClassType: 
+    itemID: 23
+    itemDesc: "This gigantic, ruthless bee trembles in terror with its fast flapping
+      wings and noise. I'm making it With indiscriminate violence, these monsters
+      inflict great terror on their target. \"Weeeeeee~~~\"\r"
+    itemIcon: {fileID: 21300000, guid: 27d323d468e128f4986bc7ba43419b5c, type: 3}
+    objType: Minion_T
+    itemValue: 1
+    itemType: 10
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 100
+    CombinationValue: 0
+    towerData:
+      Name: Monster_Bee_Tower3
+      NickName: Honeycomb
+      ID: 3023
+      GroupID: 23
+      Rank: 3
+      Type: 4
+      Pf: {fileID: 7566052548809756703, guid: cf8331d328f161b4a9d9adc21bc336ee, type: 3}
+      Combination_ResultID: 3024
+      Combination_Required_Value: 200
+      Normal_Random_Draw_Probability: 0.41666666
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 1.6666666
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 2.9166667
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 11.666667
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 1
+      Attack_Speed: 0.3
+      Hp: 200
+      Range: 20
+      Range_Type: 4
+      Projectile_Type: 1
+      Projectile_Speed: 60
+      Projectile_Pf: {fileID: 3720574515718989771, guid: f1d5dac7ff3733e4faee3b02529b5a58, type: 3}
+      Destroy_Effect_Pf: {fileID: 1705284682975132108, guid: fbe62b974630487458f54bd7eaf3bfcb, type: 3}
+      Desc: "This gigantic, ruthless bee trembles in terror with its fast flapping
+        wings and noise. I'm making it With indiscriminate violence, these monsters
+        inflict great terror on their target. \"Weeeeeee~~~\"\r"
+      Sprite_TowerCard: {fileID: 21300000, guid: 27d323d468e128f4986bc7ba43419b5c, type: 3}
+      Sprite_TowerProtrait: {fileID: 21300000, guid: c38c42b8c72a18e47b736cb946f1c9c6, type: 3}
+      AudioClip_Attack_Name: 0
+      AudioClip_Hit_Name: 0
+      AudioClip_Normal_Name: "0\r"
+      buffID: 0
+      MinionID: 5038
+    skillData:
+      NameLevel: 
+      Name: {fileID: 0}
+      ID: 0
+      Probability: 0
+      Classification: 0
+      Rank: 0
+      LockTime: 0
+      SkillType: 0
+      Value_1: 0
+      Value_2: 0
+      CoolTime: 0
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 0
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 0}
+      SkillIcon: {fileID: 0}
+      Desc: 
+  - itemName: Tower_Minion_Monster_Bee4
+    ClassType: 
+    itemID: 24
+    itemDesc: "This gigantic, ruthless bee trembles in terror with its fast flapping
+      wings and noise. I'm making it With indiscriminate violence, these monsters
+      inflict great terror on their target. \"Weeeeeee~~~\"\r"
+    itemIcon: {fileID: 21300000, guid: cad0a82db4f6649459cadc022fe7497a, type: 3}
+    objType: Minion_T
+    itemValue: 1
+    itemType: 10
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 100
+    CombinationValue: 0
+    towerData:
+      Name: Monster_Bee_Tower4
+      NickName: Honeycomb
+      ID: 3024
+      GroupID: 23
+      Rank: 4
+      Type: 4
+      Pf: {fileID: 7566052548809756703, guid: cf8331d328f161b4a9d9adc21bc336ee, type: 3}
+      Combination_ResultID: 3025
+      Combination_Required_Value: 100
+      Normal_Random_Draw_Probability: 0
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 0
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 0.8333333
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 3.3333333
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 1
+      Attack_Speed: 0.3
+      Hp: 250
+      Range: 20
+      Range_Type: 4
+      Projectile_Type: 1
+      Projectile_Speed: 60
+      Projectile_Pf: {fileID: 3720574515718989771, guid: f1d5dac7ff3733e4faee3b02529b5a58, type: 3}
+      Destroy_Effect_Pf: {fileID: 1705284682975132108, guid: fbe62b974630487458f54bd7eaf3bfcb, type: 3}
+      Desc: "This gigantic, ruthless bee trembles in terror with its fast flapping
+        wings and noise. I'm making it With indiscriminate violence, these monsters
+        inflict great terror on their target. \"Weeeeeee~~~\"\r"
+      Sprite_TowerCard: {fileID: 21300000, guid: cad0a82db4f6649459cadc022fe7497a, type: 3}
+      Sprite_TowerProtrait: {fileID: 21300000, guid: c38c42b8c72a18e47b736cb946f1c9c6, type: 3}
+      AudioClip_Attack_Name: 0
+      AudioClip_Hit_Name: 0
+      AudioClip_Normal_Name: "0\r"
+      buffID: 0
+      MinionID: 5039
+    skillData:
+      NameLevel: 
+      Name: {fileID: 0}
+      ID: 0
+      Probability: 0
+      Classification: 0
+      Rank: 0
+      LockTime: 0
+      SkillType: 0
+      Value_1: 0
+      Value_2: 0
+      CoolTime: 0
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 0
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 0}
+      SkillIcon: {fileID: 0}
+      Desc: 
+  - itemName: Tower_Minion_Monster_Bee5
+    ClassType: 
+    itemID: 25
+    itemDesc: "This gigantic, ruthless bee trembles in terror with its fast flapping
+      wings and noise. I'm making it With indiscriminate violence, these monsters
+      inflict great terror on their target. \"Weeeeeee~~~\"\r"
+    itemIcon: {fileID: 21300000, guid: e6951e9315659ce4eb25dd2288ea5b6a, type: 3}
+    objType: Minion_T
+    itemValue: 1
+    itemType: 10
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 100
+    CombinationValue: 0
+    towerData:
+      Name: Monster_Bee_Tower5
+      NickName: Honeycomb
+      ID: 3025
+      GroupID: 23
+      Rank: 5
+      Type: 4
+      Pf: {fileID: 7566052548809756703, guid: cf8331d328f161b4a9d9adc21bc336ee, type: 3}
+      Combination_ResultID: 0
+      Combination_Required_Value: 0
+      Normal_Random_Draw_Probability: 0
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 0
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 0.41666666
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 1.6666666
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 1
+      Attack_Speed: 0.3
+      Hp: 300
+      Range: 20
+      Range_Type: 4
+      Projectile_Type: 1
+      Projectile_Speed: 60
+      Projectile_Pf: {fileID: 3720574515718989771, guid: f1d5dac7ff3733e4faee3b02529b5a58, type: 3}
+      Destroy_Effect_Pf: {fileID: 1705284682975132108, guid: fbe62b974630487458f54bd7eaf3bfcb, type: 3}
+      Desc: "This gigantic, ruthless bee trembles in terror with its fast flapping
+        wings and noise. I'm making it With indiscriminate violence, these monsters
+        inflict great terror on their target. \"Weeeeeee~~~\"\r"
+      Sprite_TowerCard: {fileID: 21300000, guid: e6951e9315659ce4eb25dd2288ea5b6a, type: 3}
+      Sprite_TowerProtrait: {fileID: 21300000, guid: c38c42b8c72a18e47b736cb946f1c9c6, type: 3}
+      AudioClip_Attack_Name: 0
+      AudioClip_Hit_Name: 0
+      AudioClip_Normal_Name: "0\r"
+      buffID: 0
+      MinionID: 5040
+    skillData:
+      NameLevel: 
+      Name: {fileID: 0}
+      ID: 0
+      Probability: 0
+      Classification: 0
+      Rank: 0
+      LockTime: 0
+      SkillType: 0
+      Value_1: 0
+      Value_2: 0
+      CoolTime: 0
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 0
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 0}
+      SkillIcon: {fileID: 0}
+      Desc: 
+  - itemName: Tower_Minion_Mushroom1
+    ClassType: 
+    itemID: 26
+    itemDesc: "The evil that emanates from the deep eye light often paralyzes the
+      surroundings. The eight horns sprouting from the spores are ideal to attack
+      you\r"
+    itemIcon: {fileID: 21300000, guid: 89ba0c243f2d3934db73591f7dd9e68d, type: 3}
+    objType: Minion_T
+    itemValue: 1
+    itemType: 10
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 100
+    CombinationValue: 0
+    towerData:
+      Name: Evil_Mushroom_Tower
+      NickName: Mushroom Colony
+      ID: 3026
+      GroupID: 24
+      Rank: 1
+      Type: 4
+      Pf: {fileID: 6065851825608508065, guid: a09e87caf8fffe74aa99f70d9f4bb406, type: 3}
+      Combination_ResultID: 3027
+      Combination_Required_Value: 500
+      Normal_Random_Draw_Probability: 2.9166667
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 11.666667
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 0
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 0
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 1
+      Attack_Speed: 0.3
+      Hp: 100
+      Range: 20
+      Range_Type: 4
+      Projectile_Type: 1
+      Projectile_Speed: 60
+      Projectile_Pf: {fileID: 3720574515718989771, guid: f1d5dac7ff3733e4faee3b02529b5a58, type: 3}
+      Destroy_Effect_Pf: {fileID: 1705284682975132108, guid: fbe62b974630487458f54bd7eaf3bfcb, type: 3}
+      Desc: "The evil that emanates from the deep eye light often paralyzes the surroundings.
+        The eight horns sprouting from the spores are ideal to attack you\r"
+      Sprite_TowerCard: {fileID: 21300000, guid: 89ba0c243f2d3934db73591f7dd9e68d, type: 3}
+      Sprite_TowerProtrait: {fileID: 21300000, guid: aee332f2e39c5784cbecf0a309c90941, type: 3}
+      AudioClip_Attack_Name: 0
+      AudioClip_Hit_Name: 0
+      AudioClip_Normal_Name: "0\r"
+      buffID: 0
+      MinionID: 5006
+    skillData:
+      NameLevel: 
+      Name: {fileID: 0}
+      ID: 0
+      Probability: 0
+      Classification: 0
+      Rank: 0
+      LockTime: 0
+      SkillType: 0
+      Value_1: 0
+      Value_2: 0
+      CoolTime: 0
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 0
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 0}
+      SkillIcon: {fileID: 0}
+      Desc: 
+  - itemName: Tower_Minion_Mushroom2
+    ClassType: 
+    itemID: 27
+    itemDesc: "The evil that emanates from the deep eye light often paralyzes the
+      surroundings. The eight horns sprouting from the spores are ideal to attack
+      you\r"
+    itemIcon: {fileID: 21300000, guid: dcf17e4efd04d76439b19894171f19c5, type: 3}
+    objType: Minion_T
+    itemValue: 1
+    itemType: 10
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 100
+    CombinationValue: 0
+    towerData:
+      Name: Evil_Mushroom_Tower2
+      NickName: Mushroom Colony
+      ID: 3027
+      GroupID: 24
+      Rank: 2
+      Type: 4
+      Pf: {fileID: 6065851825608508065, guid: a09e87caf8fffe74aa99f70d9f4bb406, type: 3}
+      Combination_ResultID: 3028
+      Combination_Required_Value: 300
+      Normal_Random_Draw_Probability: 0.8333333
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 3.3333333
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 0
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 0
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 1
+      Attack_Speed: 0.3
+      Hp: 150
+      Range: 20
+      Range_Type: 4
+      Projectile_Type: 1
+      Projectile_Speed: 60
+      Projectile_Pf: {fileID: 3720574515718989771, guid: f1d5dac7ff3733e4faee3b02529b5a58, type: 3}
+      Destroy_Effect_Pf: {fileID: 1705284682975132108, guid: fbe62b974630487458f54bd7eaf3bfcb, type: 3}
+      Desc: "The evil that emanates from the deep eye light often paralyzes the surroundings.
+        The eight horns sprouting from the spores are ideal to attack you\r"
+      Sprite_TowerCard: {fileID: 21300000, guid: dcf17e4efd04d76439b19894171f19c5, type: 3}
+      Sprite_TowerProtrait: {fileID: 21300000, guid: aee332f2e39c5784cbecf0a309c90941, type: 3}
+      AudioClip_Attack_Name: 0
+      AudioClip_Hit_Name: 0
+      AudioClip_Normal_Name: "0\r"
+      buffID: 0
+      MinionID: 5007
+    skillData:
+      NameLevel: 
+      Name: {fileID: 0}
+      ID: 0
+      Probability: 0
+      Classification: 0
+      Rank: 0
+      LockTime: 0
+      SkillType: 0
+      Value_1: 0
+      Value_2: 0
+      CoolTime: 0
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 0
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 0}
+      SkillIcon: {fileID: 0}
+      Desc: 
+  - itemName: Tower_Minion_Mushroom3
+    ClassType: 
+    itemID: 28
+    itemDesc: "The evil that emanates from the deep eye light often paralyzes the
+      surroundings. The eight horns sprouting from the spores are ideal to attack
+      you\r"
+    itemIcon: {fileID: 21300000, guid: 46ed5dafa36dd9a4aa1c5ea7d989d2d0, type: 3}
+    objType: Minion_T
+    itemValue: 1
+    itemType: 10
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 100
+    CombinationValue: 0
+    towerData:
+      Name: Evil_Mushroom_Tower3
+      NickName: Mushroom Colony
+      ID: 3028
+      GroupID: 24
+      Rank: 3
+      Type: 4
+      Pf: {fileID: 6065851825608508065, guid: a09e87caf8fffe74aa99f70d9f4bb406, type: 3}
+      Combination_ResultID: 3029
+      Combination_Required_Value: 200
+      Normal_Random_Draw_Probability: 0.41666666
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 1.6666666
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 2.9166667
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 11.666667
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 1
+      Attack_Speed: 0.3
+      Hp: 200
+      Range: 20
+      Range_Type: 4
+      Projectile_Type: 1
+      Projectile_Speed: 60
+      Projectile_Pf: {fileID: 3720574515718989771, guid: f1d5dac7ff3733e4faee3b02529b5a58, type: 3}
+      Destroy_Effect_Pf: {fileID: 1705284682975132108, guid: fbe62b974630487458f54bd7eaf3bfcb, type: 3}
+      Desc: "The evil that emanates from the deep eye light often paralyzes the surroundings.
+        The eight horns sprouting from the spores are ideal to attack you\r"
+      Sprite_TowerCard: {fileID: 21300000, guid: 46ed5dafa36dd9a4aa1c5ea7d989d2d0, type: 3}
+      Sprite_TowerProtrait: {fileID: 21300000, guid: aee332f2e39c5784cbecf0a309c90941, type: 3}
+      AudioClip_Attack_Name: 0
+      AudioClip_Hit_Name: 0
+      AudioClip_Normal_Name: "0\r"
+      buffID: 0
+      MinionID: 5008
+    skillData:
+      NameLevel: 
+      Name: {fileID: 0}
+      ID: 0
+      Probability: 0
+      Classification: 0
+      Rank: 0
+      LockTime: 0
+      SkillType: 0
+      Value_1: 0
+      Value_2: 0
+      CoolTime: 0
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 0
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 0}
+      SkillIcon: {fileID: 0}
+      Desc: 
+  - itemName: Tower_Minion_Mushroom4
+    ClassType: 
+    itemID: 29
+    itemDesc: "The evil that emanates from the deep eye light often paralyzes the
+      surroundings. The eight horns sprouting from the spores are ideal to attack
+      you\r"
+    itemIcon: {fileID: 21300000, guid: cdd85326e98284247a2a9a04ac38702e, type: 3}
+    objType: Minion_T
+    itemValue: 1
+    itemType: 10
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 100
+    CombinationValue: 0
+    towerData:
+      Name: Evil_Mushroom_Tower4
+      NickName: Mushroom Colony
+      ID: 3029
+      GroupID: 24
+      Rank: 4
+      Type: 4
+      Pf: {fileID: 6065851825608508065, guid: a09e87caf8fffe74aa99f70d9f4bb406, type: 3}
+      Combination_ResultID: 3030
+      Combination_Required_Value: 100
+      Normal_Random_Draw_Probability: 0
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 0
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 0.8333333
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 3.3333333
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 1
+      Attack_Speed: 0.3
+      Hp: 250
+      Range: 20
+      Range_Type: 4
+      Projectile_Type: 1
+      Projectile_Speed: 60
+      Projectile_Pf: {fileID: 3720574515718989771, guid: f1d5dac7ff3733e4faee3b02529b5a58, type: 3}
+      Destroy_Effect_Pf: {fileID: 1705284682975132108, guid: fbe62b974630487458f54bd7eaf3bfcb, type: 3}
+      Desc: "The evil that emanates from the deep eye light often paralyzes the surroundings.
+        The eight horns sprouting from the spores are ideal to attack you\r"
+      Sprite_TowerCard: {fileID: 21300000, guid: cdd85326e98284247a2a9a04ac38702e, type: 3}
+      Sprite_TowerProtrait: {fileID: 21300000, guid: aee332f2e39c5784cbecf0a309c90941, type: 3}
+      AudioClip_Attack_Name: 0
+      AudioClip_Hit_Name: 0
+      AudioClip_Normal_Name: "0\r"
+      buffID: 0
+      MinionID: 5009
+    skillData:
+      NameLevel: 
+      Name: {fileID: 0}
+      ID: 0
+      Probability: 0
+      Classification: 0
+      Rank: 0
+      LockTime: 0
+      SkillType: 0
+      Value_1: 0
+      Value_2: 0
+      CoolTime: 0
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 0
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 0}
+      SkillIcon: {fileID: 0}
+      Desc: 
+  - itemName: Tower_Minion_Mushroom5
+    ClassType: 
+    itemID: 30
+    itemDesc: "The evil that emanates from the deep eye light often paralyzes the
+      surroundings. The eight horns sprouting from the spores are ideal to attack
+      you\r"
+    itemIcon: {fileID: 21300000, guid: 3d88aaa65289f3f4b9f8a4ee53993f8e, type: 3}
+    objType: Minion_T
+    itemValue: 1
+    itemType: 10
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 100
+    CombinationValue: 0
+    towerData:
+      Name: Evil_Mushroom_Tower5
+      NickName: Mushroom Colony
+      ID: 3030
+      GroupID: 24
+      Rank: 5
+      Type: 4
+      Pf: {fileID: 6065851825608508065, guid: a09e87caf8fffe74aa99f70d9f4bb406, type: 3}
+      Combination_ResultID: 0
+      Combination_Required_Value: 0
+      Normal_Random_Draw_Probability: 0
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 0
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 0.41666666
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 1.6666666
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 1
+      Attack_Speed: 0.3
+      Hp: 300
+      Range: 20
+      Range_Type: 4
+      Projectile_Type: 1
+      Projectile_Speed: 60
+      Projectile_Pf: {fileID: 3720574515718989771, guid: f1d5dac7ff3733e4faee3b02529b5a58, type: 3}
+      Destroy_Effect_Pf: {fileID: 1705284682975132108, guid: fbe62b974630487458f54bd7eaf3bfcb, type: 3}
+      Desc: "The evil that emanates from the deep eye light often paralyzes the surroundings.
+        The eight horns sprouting from the spores are ideal to attack you\r"
+      Sprite_TowerCard: {fileID: 21300000, guid: 3d88aaa65289f3f4b9f8a4ee53993f8e, type: 3}
+      Sprite_TowerProtrait: {fileID: 21300000, guid: aee332f2e39c5784cbecf0a309c90941, type: 3}
+      AudioClip_Attack_Name: 0
+      AudioClip_Hit_Name: 0
+      AudioClip_Normal_Name: 0
+      buffID: 0
+      MinionID: 5010
+    skillData:
+      NameLevel: 
+      Name: {fileID: 0}
+      ID: 0
+      Probability: 0
+      Classification: 0
+      Rank: 0
+      LockTime: 0
+      SkillType: 0
+      Value_1: 0
+      Value_2: 0
+      CoolTime: 0
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 0
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 0}
+      SkillIcon: {fileID: 0}
+      Desc: 

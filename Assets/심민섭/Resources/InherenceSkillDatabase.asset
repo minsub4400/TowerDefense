@@ -1,0 +1,748 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7450f9ae548e57443aef0ac31698f732, type: 3}
+  m_Name: InherenceSkillDatabase
+  m_EditorClassIdentifier: 
+  itemList:
+  - itemName: 
+    ClassType: 
+    itemID: 0
+    itemDesc: 
+    itemIcon: {fileID: 0}
+    objType: 
+    itemValue: 0
+    itemType: 0
+    itemWeight: 0
+    maxStack: 0
+    indexItemInList: 0
+    rarity: 0
+    CombinationValue: 0
+    towerData:
+      Name: 
+      NickName: 
+      ID: 0
+      GroupID: 0
+      Rank: 0
+      Type: 0
+      Pf: {fileID: 0}
+      Combination_ResultID: 0
+      Combination_Required_Value: 0
+      Normal_Random_Draw_Probability: 0
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 0
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 0
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 0
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 0
+      Attack_Speed: 0
+      Hp: 0
+      Range: 0
+      Range_Type: 0
+      Projectile_Type: 0
+      Projectile_Speed: 0
+      Projectile_Pf: {fileID: 0}
+      Destroy_Effect_Pf: {fileID: 0}
+      Desc: 
+      Sprite_TowerCard: {fileID: 0}
+      Sprite_TowerProtrait: {fileID: 0}
+      AudioClip_Attack: {fileID: 0}
+      AudioClip_Destroy: {fileID: 0}
+      buffID: 0
+      MinionID: 0
+    skillData:
+      NameLevel: 
+      Name: {fileID: 0}
+      ID: 0
+      Probability: 0
+      Classification: 0
+      Rank: 0
+      LockTime: 0
+      SkillType: 0
+      Value_1: 0
+      Value_2: 0
+      CoolTime: 0
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 0
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 0}
+      SkillIcon: {fileID: 0}
+      Desc: 
+  - itemName: increasedMinionProduction1
+    ClassType: Inherence
+    itemID: 1
+    itemDesc: "Empower your nexus to increase your minions.\r"
+    itemIcon: {fileID: 21300000, guid: fcb5d049033735c4c9741bb4098ce0c4, type: 3}
+    objType: Passive_S
+    itemValue: 1
+    itemType: 2
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 0
+    CombinationValue: 0
+    towerData:
+      Name: 
+      NickName: 
+      ID: 0
+      GroupID: 0
+      Rank: 0
+      Type: 0
+      Pf: {fileID: 0}
+      Combination_ResultID: 0
+      Combination_Required_Value: 0
+      Normal_Random_Draw_Probability: 0
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 0
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 0
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 0
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 0
+      Attack_Speed: 0
+      Hp: 0
+      Range: 0
+      Range_Type: 0
+      Projectile_Type: 0
+      Projectile_Speed: 0
+      Projectile_Pf: {fileID: 0}
+      Destroy_Effect_Pf: {fileID: 0}
+      Desc: 
+      Sprite_TowerCard: {fileID: 0}
+      Sprite_TowerProtrait: {fileID: 0}
+      AudioClip_Attack: {fileID: 0}
+      AudioClip_Destroy: {fileID: 0}
+      buffID: 0
+      MinionID: 0
+    skillData:
+      NameLevel: increasedMinionProduction1
+      Name: {fileID: 3776376177072238161, guid: 650f568cfe4d6d74e883f4a208006059, type: 3}
+      ID: 1
+      Probability: 16.666666
+      Classification: 1
+      Rank: 1
+      LockTime: 0.5
+      SkillType: 4
+      Value_1: 1
+      Value_2: 0
+      CoolTime: 30
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 5
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 21300000, guid: fcb5d049033735c4c9741bb4098ce0c4, type: 3}
+      SkillIcon: {fileID: 21300000, guid: de220c3a7f7646f4b8625947a8bfa682, type: 3}
+      Desc: "Empower your nexus to increase your minions.\r"
+  - itemName: increasedMinionProduction2
+    ClassType: Inherence
+    itemID: 2
+    itemDesc: "Empower your nexus to increase your minions.\r"
+    itemIcon: {fileID: 21300000, guid: 1d3241f7f613ec3429f8c9a9f3a05eb4, type: 3}
+    objType: Passive_S
+    itemValue: 1
+    itemType: 2
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 0
+    CombinationValue: 0
+    towerData:
+      Name: 
+      NickName: 
+      ID: 0
+      GroupID: 0
+      Rank: 0
+      Type: 0
+      Pf: {fileID: 0}
+      Combination_ResultID: 0
+      Combination_Required_Value: 0
+      Normal_Random_Draw_Probability: 0
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 0
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 0
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 0
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 0
+      Attack_Speed: 0
+      Hp: 0
+      Range: 0
+      Range_Type: 0
+      Projectile_Type: 0
+      Projectile_Speed: 0
+      Projectile_Pf: {fileID: 0}
+      Destroy_Effect_Pf: {fileID: 0}
+      Desc: 
+      Sprite_TowerCard: {fileID: 0}
+      Sprite_TowerProtrait: {fileID: 0}
+      AudioClip_Attack: {fileID: 0}
+      AudioClip_Destroy: {fileID: 0}
+      buffID: 0
+      MinionID: 0
+    skillData:
+      NameLevel: increasedMinionProduction2
+      Name: {fileID: 3776376177072238161, guid: 650f568cfe4d6d74e883f4a208006059, type: 3}
+      ID: 2
+      Probability: 13.333333
+      Classification: 1
+      Rank: 2
+      LockTime: 0.5
+      SkillType: 4
+      Value_1: 2
+      Value_2: 0
+      CoolTime: 30
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 7
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 21300000, guid: 1d3241f7f613ec3429f8c9a9f3a05eb4, type: 3}
+      SkillIcon: {fileID: 21300000, guid: de220c3a7f7646f4b8625947a8bfa682, type: 3}
+      Desc: "Empower your nexus to increase your minions.\r"
+  - itemName: increasedMinionProduction3
+    ClassType: Inherence
+    itemID: 3
+    itemDesc: "Empower your nexus to increase your minions.\r"
+    itemIcon: {fileID: 21300000, guid: 085bd794960d3874f8b57a7d6618d2b4, type: 3}
+    objType: Passive_S
+    itemValue: 1
+    itemType: 2
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 0
+    CombinationValue: 0
+    towerData:
+      Name: 
+      NickName: 
+      ID: 0
+      GroupID: 0
+      Rank: 0
+      Type: 0
+      Pf: {fileID: 0}
+      Combination_ResultID: 0
+      Combination_Required_Value: 0
+      Normal_Random_Draw_Probability: 0
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 0
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 0
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 0
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 0
+      Attack_Speed: 0
+      Hp: 0
+      Range: 0
+      Range_Type: 0
+      Projectile_Type: 0
+      Projectile_Speed: 0
+      Projectile_Pf: {fileID: 0}
+      Destroy_Effect_Pf: {fileID: 0}
+      Desc: 
+      Sprite_TowerCard: {fileID: 0}
+      Sprite_TowerProtrait: {fileID: 0}
+      AudioClip_Attack: {fileID: 0}
+      AudioClip_Destroy: {fileID: 0}
+      buffID: 0
+      MinionID: 0
+    skillData:
+      NameLevel: increasedMinionProduction3
+      Name: {fileID: 3776376177072238161, guid: 650f568cfe4d6d74e883f4a208006059, type: 3}
+      ID: 3
+      Probability: 3.3333333
+      Classification: 1
+      Rank: 3
+      LockTime: 0.5
+      SkillType: 4
+      Value_1: 3
+      Value_2: 0
+      CoolTime: 30
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 10
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 21300000, guid: 085bd794960d3874f8b57a7d6618d2b4, type: 3}
+      SkillIcon: {fileID: 21300000, guid: de220c3a7f7646f4b8625947a8bfa682, type: 3}
+      Desc: "Empower your nexus to increase your minions.\r"
+  - itemName: increasedMinionAttackPower1
+    ClassType: Inherence
+    itemID: 4
+    itemDesc: "Encourages allies to increase attack power for a certain period of
+      time.\r"
+    itemIcon: {fileID: 21300000, guid: 4d67bc0399605114cbf8d8bb56dcecef, type: 3}
+    objType: Passive_S
+    itemValue: 1
+    itemType: 2
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 1
+    CombinationValue: 0
+    towerData:
+      Name: 
+      NickName: 
+      ID: 0
+      GroupID: 0
+      Rank: 0
+      Type: 0
+      Pf: {fileID: 0}
+      Combination_ResultID: 0
+      Combination_Required_Value: 0
+      Normal_Random_Draw_Probability: 0
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 0
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 0
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 0
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 0
+      Attack_Speed: 0
+      Hp: 0
+      Range: 0
+      Range_Type: 0
+      Projectile_Type: 0
+      Projectile_Speed: 0
+      Projectile_Pf: {fileID: 0}
+      Destroy_Effect_Pf: {fileID: 0}
+      Desc: 
+      Sprite_TowerCard: {fileID: 0}
+      Sprite_TowerProtrait: {fileID: 0}
+      AudioClip_Attack: {fileID: 0}
+      AudioClip_Destroy: {fileID: 0}
+      buffID: 0
+      MinionID: 0
+    skillData:
+      NameLevel: increasedMinionAttackPower1
+      Name: {fileID: 4699022077222962073, guid: 32d26ab99f371f34fb9d02cbdfdbad39, type: 3}
+      ID: 4
+      Probability: 16.666666
+      Classification: 1
+      Rank: 1
+      LockTime: 0.5
+      SkillType: 5
+      Value_1: 20
+      Value_2: 40
+      CoolTime: 30
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 20
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 21300000, guid: 4d67bc0399605114cbf8d8bb56dcecef, type: 3}
+      SkillIcon: {fileID: 21300000, guid: d5fd9a4572a729f4591c714286da8c15, type: 3}
+      Desc: "Encourages allies to increase attack power for a certain period of time.\r"
+  - itemName: increasedMinionAttackPower2
+    ClassType: Inherence
+    itemID: 5
+    itemDesc: "Encourages allies to increase attack power for a certain period of
+      time.\r"
+    itemIcon: {fileID: 21300000, guid: f9228bf5406f30d4a9ab277df755e488, type: 3}
+    objType: Passive_S
+    itemValue: 1
+    itemType: 2
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 1
+    CombinationValue: 0
+    towerData:
+      Name: 
+      NickName: 
+      ID: 0
+      GroupID: 0
+      Rank: 0
+      Type: 0
+      Pf: {fileID: 0}
+      Combination_ResultID: 0
+      Combination_Required_Value: 0
+      Normal_Random_Draw_Probability: 0
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 0
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 0
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 0
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 0
+      Attack_Speed: 0
+      Hp: 0
+      Range: 0
+      Range_Type: 0
+      Projectile_Type: 0
+      Projectile_Speed: 0
+      Projectile_Pf: {fileID: 0}
+      Destroy_Effect_Pf: {fileID: 0}
+      Desc: 
+      Sprite_TowerCard: {fileID: 0}
+      Sprite_TowerProtrait: {fileID: 0}
+      AudioClip_Attack: {fileID: 0}
+      AudioClip_Destroy: {fileID: 0}
+      buffID: 0
+      MinionID: 0
+    skillData:
+      NameLevel: increasedMinionAttackPower2
+      Name: {fileID: 4699022077222962073, guid: 32d26ab99f371f34fb9d02cbdfdbad39, type: 3}
+      ID: 5
+      Probability: 13.333333
+      Classification: 1
+      Rank: 2
+      LockTime: 0.5
+      SkillType: 5
+      Value_1: 30
+      Value_2: 40
+      CoolTime: 30
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 20
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 21300000, guid: f9228bf5406f30d4a9ab277df755e488, type: 3}
+      SkillIcon: {fileID: 21300000, guid: d5fd9a4572a729f4591c714286da8c15, type: 3}
+      Desc: "Encourages allies to increase attack power for a certain period of time.\r"
+  - itemName: increasedMinionAttackPower3
+    ClassType: Inherence
+    itemID: 6
+    itemDesc: "Encourages allies to increase attack power for a certain period of
+      time.\r"
+    itemIcon: {fileID: 21300000, guid: 650724a164ebf064eae7507ef12751d5, type: 3}
+    objType: Passive_S
+    itemValue: 1
+    itemType: 2
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 1
+    CombinationValue: 0
+    towerData:
+      Name: 
+      NickName: 
+      ID: 0
+      GroupID: 0
+      Rank: 0
+      Type: 0
+      Pf: {fileID: 0}
+      Combination_ResultID: 0
+      Combination_Required_Value: 0
+      Normal_Random_Draw_Probability: 0
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 0
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 0
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 0
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 0
+      Attack_Speed: 0
+      Hp: 0
+      Range: 0
+      Range_Type: 0
+      Projectile_Type: 0
+      Projectile_Speed: 0
+      Projectile_Pf: {fileID: 0}
+      Destroy_Effect_Pf: {fileID: 0}
+      Desc: 
+      Sprite_TowerCard: {fileID: 0}
+      Sprite_TowerProtrait: {fileID: 0}
+      AudioClip_Attack: {fileID: 0}
+      AudioClip_Destroy: {fileID: 0}
+      buffID: 0
+      MinionID: 0
+    skillData:
+      NameLevel: increasedMinionAttackPower3
+      Name: {fileID: 4699022077222962073, guid: 32d26ab99f371f34fb9d02cbdfdbad39, type: 3}
+      ID: 6
+      Probability: 3.3333333
+      Classification: 1
+      Rank: 3
+      LockTime: 0.5
+      SkillType: 5
+      Value_1: 50
+      Value_2: 50
+      CoolTime: 30
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 20
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 21300000, guid: 650724a164ebf064eae7507ef12751d5, type: 3}
+      SkillIcon: {fileID: 21300000, guid: d5fd9a4572a729f4591c714286da8c15, type: 3}
+      Desc: "Encourages allies to increase attack power for a certain period of time.\r"
+  - itemName: dragonSummon1
+    ClassType: Inherence
+    itemID: 7
+    itemDesc: "Summons a minion to help you in subspace.\r"
+    itemIcon: {fileID: 21300000, guid: 6f39a148ffa0bb447bc33b3bb87a53c0, type: 3}
+    objType: Active_S
+    itemValue: 1
+    itemType: 2
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 100
+    CombinationValue: 0
+    towerData:
+      Name: 
+      NickName: 
+      ID: 0
+      GroupID: 0
+      Rank: 0
+      Type: 0
+      Pf: {fileID: 0}
+      Combination_ResultID: 0
+      Combination_Required_Value: 0
+      Normal_Random_Draw_Probability: 0
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 0
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 0
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 0
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 0
+      Attack_Speed: 0
+      Hp: 0
+      Range: 0
+      Range_Type: 0
+      Projectile_Type: 0
+      Projectile_Speed: 0
+      Projectile_Pf: {fileID: 0}
+      Destroy_Effect_Pf: {fileID: 0}
+      Desc: 
+      Sprite_TowerCard: {fileID: 0}
+      Sprite_TowerProtrait: {fileID: 0}
+      AudioClip_Attack: {fileID: 0}
+      AudioClip_Destroy: {fileID: 0}
+      buffID: 0
+      MinionID: 0
+    skillData:
+      NameLevel: dragonSummon1
+      Name: {fileID: 5986862085301851285, guid: bee4f76b16913624eb6c0911235105e1, type: 3}
+      ID: 7
+      Probability: 16.666666
+      Classification: 1
+      Rank: 1
+      LockTime: 0.5
+      SkillType: 7
+      Value_1: 5021
+      Value_2: 5028
+      CoolTime: 20
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 20
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 21300000, guid: 6f39a148ffa0bb447bc33b3bb87a53c0, type: 3}
+      SkillIcon: {fileID: 21300000, guid: 0b40a759a114311418210830c433e3b1, type: 3}
+      Desc: "Summons a minion to help you in subspace.\r"
+  - itemName: dragonSummon2
+    ClassType: Inherence
+    itemID: 8
+    itemDesc: "Summons a minion to help you in subspace.\r"
+    itemIcon: {fileID: 21300000, guid: 1e669b533ccafdd4daaad0582455a3a9, type: 3}
+    objType: Active_S
+    itemValue: 1
+    itemType: 2
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 100
+    CombinationValue: 0
+    towerData:
+      Name: 
+      NickName: 
+      ID: 0
+      GroupID: 0
+      Rank: 0
+      Type: 0
+      Pf: {fileID: 0}
+      Combination_ResultID: 0
+      Combination_Required_Value: 0
+      Normal_Random_Draw_Probability: 0
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 0
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 0
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 0
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 0
+      Attack_Speed: 0
+      Hp: 0
+      Range: 0
+      Range_Type: 0
+      Projectile_Type: 0
+      Projectile_Speed: 0
+      Projectile_Pf: {fileID: 0}
+      Destroy_Effect_Pf: {fileID: 0}
+      Desc: 
+      Sprite_TowerCard: {fileID: 0}
+      Sprite_TowerProtrait: {fileID: 0}
+      AudioClip_Attack: {fileID: 0}
+      AudioClip_Destroy: {fileID: 0}
+      buffID: 0
+      MinionID: 0
+    skillData:
+      NameLevel: dragonSummon2
+      Name: {fileID: 5986862085301851285, guid: bee4f76b16913624eb6c0911235105e1, type: 3}
+      ID: 8
+      Probability: 13.333333
+      Classification: 1
+      Rank: 2
+      LockTime: 0.5
+      SkillType: 7
+      Value_1: 5021
+      Value_2: 5028
+      CoolTime: 20
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 0
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 21300000, guid: 1e669b533ccafdd4daaad0582455a3a9, type: 3}
+      SkillIcon: {fileID: 21300000, guid: 0b40a759a114311418210830c433e3b1, type: 3}
+      Desc: "Summons a minion to help you in subspace.\r"
+  - itemName: dragonSummon3
+    ClassType: Inherence
+    itemID: 9
+    itemDesc: "Summons a minion to help you in subspace.\r"
+    itemIcon: {fileID: 21300000, guid: 8b6d43a312ae32245871daf4da2aaeb8, type: 3}
+    objType: Active_S
+    itemValue: 1
+    itemType: 2
+    itemWeight: 0
+    maxStack: 99
+    indexItemInList: 99
+    rarity: 100
+    CombinationValue: 0
+    towerData:
+      Name: 
+      NickName: 
+      ID: 0
+      GroupID: 0
+      Rank: 0
+      Type: 0
+      Pf: {fileID: 0}
+      Combination_ResultID: 0
+      Combination_Required_Value: 0
+      Normal_Random_Draw_Probability: 0
+      Normal_Attack_Draw_Probability: 0
+      Normal_Minion_Draw_Probability: 0
+      Normal_Buff_Debuff_Draw_Probability: 0
+      Premium_Random_Draw_Probability: 0
+      Premium_Attack_Draw_Probability: 0
+      Premium_Minion_Draw_Probability: 0
+      Premium_Buff_Debuff_Draw_Probability: 0
+      Attack: 0
+      Attack_Speed: 0
+      Hp: 0
+      Range: 0
+      Range_Type: 0
+      Projectile_Type: 0
+      Projectile_Speed: 0
+      Projectile_Pf: {fileID: 0}
+      Destroy_Effect_Pf: {fileID: 0}
+      Desc: 
+      Sprite_TowerCard: {fileID: 0}
+      Sprite_TowerProtrait: {fileID: 0}
+      AudioClip_Attack: {fileID: 0}
+      AudioClip_Destroy: {fileID: 0}
+      buffID: 0
+      MinionID: 0
+    skillData:
+      NameLevel: dragonSummon3
+      Name: {fileID: 5986862085301851285, guid: bee4f76b16913624eb6c0911235105e1, type: 3}
+      ID: 9
+      Probability: 3.3333333
+      Classification: 1
+      Rank: 3
+      LockTime: 0.5
+      SkillType: 7
+      Value_1: 5021
+      Value_2: 5028
+      CoolTime: 20
+      Range: 0
+      RangeType: 0
+      RangeValue_1: 0
+      RangeValue_2: 0
+      HoldingTime: 0
+      TickDamage: 0
+      TickCount: 0
+      TickTime: 0
+      CcType: 0
+      CcTime: 0
+      CcValue: 0
+      CardImage: {fileID: 21300000, guid: 8b6d43a312ae32245871daf4da2aaeb8, type: 3}
+      SkillIcon: {fileID: 21300000, guid: 0b40a759a114311418210830c433e3b1, type: 3}
+      Desc: "Summons a minion to help you in subspace.\r"
